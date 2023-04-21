@@ -1,11 +1,17 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-import AboutView from './AboutView.vue';
-console.log(AboutView);
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<div>
+  <h1>首页</h1>
+</div>
 </template>
+
+<script>
+export default {
+  name: '',
+data(){
+    return {
+    }
+  },
+}
+</script>
+<style scoped>
+</style>
